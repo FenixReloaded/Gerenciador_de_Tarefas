@@ -14,8 +14,6 @@ Este é um aplicativo de Gerenciador de Tarefas desenvolvido com **Python** e **
 
 ---
 
-
-
 ## Estrutura do Projeto
 
 ###### Resumido:
@@ -44,71 +42,67 @@ projeto/
 
 ###### Completo:
 
-main.py
-│   main.spec
-│   readme.md
-│   requeriments.txt
-│   Task.ico
-│   __init__.py
+├── main.py
+├── main.spec
+├── readme.md
+├── requeriments.txt
+├── Task.ico
+├── __init__.py
 │
-├───build
-│   └───main
-│       │   Analysis-00.toc
-│       │   base_library.zip
-│       │   EXE-00.toc
-│       │   main.pkg
-│       │   PKG-00.toc
-│       │   PYZ-00.pyz
-│       │   PYZ-00.toc
-│       │   warn-main.txt
-│       │   xref-main.html
+├── build
+│   └── main
+│       ├── Analysis-00.toc
+│       ├── base_library.zip
+│       ├── EXE-00.toc
+│       ├── main.pkg
+│       ├── PKG-00.toc
+│       ├── PYZ-00.pyz
+│       ├── PYZ-00.toc
+│       ├── warn-main.txt
+│       ├── xref-main.html
 │       │
-│       └───localpycs
-│               pyimod01_archive.pyc
-│               pyimod02_importers.pyc
-│               pyimod03_ctypes.pyc
-│               pyimod04_pywin32.pyc
-│               struct.pyc
+│       └── localpycs
+│           ├── pyimod01_archive.pyc
+│           ├── pyimod02_importers.pyc
+│           ├── pyimod03_ctypes.pyc
+│           ├── pyimod04_pywin32.pyc
+│           └── struct.pyc
 │
-├───dist
-│       main.exe
+├── dist
+│   └── main.exe
 │
-├───interface
-│   │   interface.py
-│   │   __init__.py
+├── interface
+│   ├── interface.py
+│   ├── __init__.py
 │   │
-│   └───__pycache__
-│           interface.cpython-311.pyc
-│           __init__.cpython-311.pyc
+│   └── __pycache__
+│       ├── interface.cpython-311.pyc
+│       └── __init__.cpython-311.pyc
 │
-├───persistencia_de_dados
-│       tarefas.json
+├── persistencia_de_dados
+│   └── tarefas.json
 │
-├───tarefas
-│   │   logica.py
-│   │   persistencia.py
-│   │   __init__.py
+├── tarefas
+│   ├── logica.py
+│   ├── persistencia.py
+│   ├── __init__.py
 │   │
-│   └───__pycache__
-│           logica.cpython-311.pyc
-│           persistencia.cpython-311.pyc
-│           __init__.cpython-311.pyc
+│   └── __pycache__
+│       ├── logica.cpython-311.pyc
+│       ├── persistencia.cpython-311.pyc
+│       └── __init__.cpython-311.pyc
 │
-└───tarefas_persistencia
-        tarefas.json
+└── tarefas_persistencia
+    └── tarefas.json
 
 ---
 
-
-
 ## Como Executar
 
-1. ** Clone o reposítorio ou baixe o código. **
-2. ** Instale as dependências: **
-   pip install -r requirements.txt
-3. ** Execute o programa: **
-   Através do botão de rodar em uma IDE ou através de um comando no terminal, para isso vá até a pasta raiz onde está localizado o programa e rode o seguinte código:
-   python main.py
+1. Clone o reposítorio ou baixe o código.
+2. Instale as dependências: `<br>`pip install -r requirements.txt
+3. Execute o programa:
+   Através do botão de rodar em uma IDE ou através de um comando no terminal, para isso vá até a pasta raiz onde está localizado o programa e rode o seguinte código: `<br>`python main.py
 
 ## Detalhes Técnicos
 
@@ -128,14 +122,11 @@ main.py
 
 * Se quiser transformar este programa em um executável para Windows, utilize o  **PyInstaller** :
 
-    pip install pyinstaller
-
+  pip install pyinstaller
 * E depois dentro da pasta raiz do projeto use esse comando:
 
-    python -m PyInstaller --noconfirm --onefile --windowed main.py
-
+  python -m PyInstaller --noconfirm --onefile --windowed main.py
 * Assim o executável estará dentro da pasta "dist" que estará na raiz do diretório.
-
 
 ## Requisitos
 
@@ -150,8 +141,6 @@ main.py
 * Email para contato: cpg.contato.networking@gmail.com
 
 ---
-
-
 
 ## Licença
 
