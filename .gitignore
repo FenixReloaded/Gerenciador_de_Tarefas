@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+#  build artifacts
+build/
+dist/
+*.spec
+
+# Executables
+*.exe
+
+# Data files
+persistencia_de_dados/tarefas.json
+tarefas_persistencia/tarefas.json
+
+# Logs and temporary files
+*.log
+*.tmp
